@@ -1,8 +1,8 @@
 ### Recommended Settings
 
-##### Editor settings
+#### Editor settings
 
-<pre>
+```
     "editor.codeLens": false,
     "editor.renderWhitespace": "none",
     "editor.autoIndent": true,
@@ -13,11 +13,11 @@
     "editor.letterSpacing": 1,
     "editor.tabSize": 2,
     "editor.wordWrap": "off"
-</pre>
+```
 
-##### File settings
+#### File settings
 
-<pre>
+```
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 2000,
     "files.exclude": {
@@ -33,11 +33,11 @@
     "files.hotExit": "onExit",
     "files.defaultLanguage": "typescript",
     "files.trimTrailingWhitespace": true,
-</pre>
+```
 
-##### Prettier settings
+#### Prettier settings
 
-<pre>
+```
     "prettier.singleQuote": true,
     "prettier.printWidth": 100,
-</pre>
+```

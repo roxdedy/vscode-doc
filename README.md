@@ -1,47 +1,69 @@
-https://code.visualstudio.com/updates/<br>
+<h2>VS Code Doc <br><sub><sup><i>Useful Visual Studio Code links, shortcuts, extensions and other resources</i></sub></sup></h2>
 
-### Integrated Terminal
-"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" <br>
+| <b><sub><sup>[DOWNLOADS](https://code.visualstudio.com/download)</sub></sup></b> | <b><sub><sup>[UPDATES](https://code.visualstudio.com/updates/)</sub></sup></b> | <b><sub><sup>[RECOMMENDED SETTINGS](/RECOMMENDED_SETTINGS.md)</sub></sup></b> |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+
+### Keyboard Shortcuts <sub><sup><u>https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf</u></sub></sup>
+
+<code>Ctrl+Shift+P, F1</code> Show Command Palette<br>
+<code>Ctrl+P</code> Quick Open, Go to File…<br>
+<code>Ctrl+F</code> Find<br>
+<code>Ctrl+K Ctrl+S</code> Keyboard Shortcuts for Windows<br>
+<code>Ctrl+,</code> User Settings <br>
+<code>Ctrl+2</code> Second Editor Window <br>
+
+### Integrated Terminal <sub><sup><u>**https://code.visualstudio.com/docs/editor/integrated-terminal**</u></sub></sup>
+
+<code>Ctrl+`</code> to open the terminal or
+
+- `View > Terminal` from the menu command.
+- `Ctrl+Shift+P` and use the View: Toggle Integrated Terminal command.
+- `Ctrl+Shift+C` to open external shell to work outside VS Code.
+
+#### Terminal Configuration
+
+```
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+// Bash on Ubuntu (on Windows)
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+```
 
-### Keyboard Shortcuts
-Ctrl + K + S - Keyboard Shortcuts <br>
-Ctrl+2 - Open Second Editor Window <br> 
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+### Extensions <sub><sup><u>**https://marketplace.visualstudio.com/VSCode**</u></sub></sup>
 
-### Extensions
+<code>Ctrl+Shift+X</code>
 
-* Angular Essentials Extension Pack - essential extensions for Angular developers **by John Papa** <br>
-https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials <br>
-<small>**The pack includes:** Angular Snippets, Angular Language Service, Editor Config, tslint, Chrome Debugger, Path Intellisense, Angular Inline, Prettier, Material Icon Theme, Node npm </small> <br>
-
-* Settings Sync
-* TypeScript Hero **by Christoph Bühler** <br>
-<small>Sort and organize your imports, remove unused imports, add import to the document</small> 
-* Angular Files **[Alexander Ivanichev]**
-* Debugger for Chrome **[Microsoft]**
-* TSLint for Visual Studio Code **[egamma]**
-* Nuget Package Manager **[jmrog]**
-* Prettier **[Esben Petersen]**
-* Path Intellisense **[Christian Kohler]**
-* Material Icon Theme **[Philipp Kief]**
-* Bracket Pair Colorizer **[CoenraadS]**
+- Angular Language Service
+- TypeScript Hero
+- Settings Sync
+- Angular Files
+- Debugger for Chrome **[Microsoft]**
+- TSLint for Visual Studio Code
+- Nuget Package Manager **[jmrog]**
+- Prettier **[Esben Petersen]**
+- Path Intellisense **[Christian Kohler]**
+- Material Icon Theme **[Philipp Kief]**,
+  **Bracket Pair Colorizer**,
+  **vscode-icons**
 
 ### Markdown
-Ctrl+Shift+V - switching between views, 
-Ctrl+K V - view the preview side-by-side
-* vscode-pandoc 
-* markdownlint
-* markdown theme kit
 
-[GitHub Flavored Markdown Spec] <https://github.github.com/gfm/> <br>
+<code>Ctrl+K V</code> Open Markdown preview to the side <br>
+<code>Ctrl+Shift+V</code> Open Markdown preview
+
+Open Markdown preview to the side
+
+- vscode-pandoc
+- markdownlint
+- markdown theme kit
+
+[GitHub Flavored Markdown Spec]
+https://github.github.com/gfm/> <br>
 https://guides.github.com/features/mastering-markdown/ <br>
 https://daringfireball.net/projects/markdown/ <br>
 https://spec.commonmark.org/0.28/#introduction
 
-### Emmet -> https://github.com/emmetio/emmet
+### Emmet <sub><sup><u>**https://github.com/emmetio/emmet**</u></sub></sup>
 
 ! + TAB, lorem + TAB <br>
-
-### Color Themes
-In VS Code, open the Color Theme picker with File > Preferences > Color Theme
